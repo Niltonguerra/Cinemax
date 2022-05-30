@@ -747,6 +747,73 @@ legend{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*formulario compra */
+
+
+.cinema{
+    list-style: none;
+    display:inline-block;
+
+}
+
+.cinema img{
+    height: 300px;
+
+}
+
+
+.cinema #item{
+    position:relative
+} 
+
+.cinema #item:hover #sub_menu{
+    transform:translateX(-50%) rotateX(0) ;
+
+} 
+ #item #sub_menu{
+     z-index: 1000;
+    list-style: none;
+     position: absolute;
+    left: 400px;
+    transform: translate(-50%);
+    transform-origin: top center;
+    transform: translate(-50%)  rotateX(-90deg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*usuario*/
 
 
